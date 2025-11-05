@@ -3,7 +3,7 @@
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url("/img/EIEI.svg");
+    background-image: url("EIEI.svg");
     background-repeat: no-repeat;
     color: #fff;
 }
@@ -261,4 +261,5 @@ nav {
     font-size: 30px;
     margin-bottom: 0;
     margin-top: 5px;
+
 }
