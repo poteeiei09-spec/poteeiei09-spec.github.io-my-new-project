@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty2.css">
+</head>
+
+<body>
+    <nav>
+        <div class="hear">
+            <div class="miji">
+                <img src="/img/dam.svg" alt="ดำเบล">
+                <p>BMI Calculate</p>
+            </div>
+            <div class="link">
+                <a href="">HOME</a>
+                <a href="">About us</a>
+                <a href="index.html">BMI</a>
+                <div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section1">
+            <div class="img">
+                <img src="/img/555 (3).svg" alt="" class="img1">
+                <img src="/img/555 (6).svg" alt="" class="img2">
+                <img src="/img/555 (5).svg" alt="" class="img3">
+            </div>
+            <div class="box">
+                <h2>เครื่องคำนวณ</h2>
+                <h2>การเผาผลาญ</h2>
+                <h2>พลังงาน (BMR)</h2>
+                <p>เพื่อความสะดวกและรวดเร็วในการคำนวณ เราได้จัดทำเครื่องคำนวณหาค่า BMR TDEE และ
+                    เครื่องคำนวณช่วยวางแผนการลดน้ำหนัก
+                    เพื่อให้ผู้อ่านได้คำนวณค่าพลังงานที่เหมาะสมและเพื่อการวางแผนการลดน้ำหนักที่ได้ผล
+                    โดยไม่ต้องเสียเวลาคิดเองอีกต่อไป
+                </p>
+                <p>BMR ย่อมาจาก Basal Metabolic Rate หรือเราสามารถเรียกได้ว่าเป็นอัตราการเผาผลาญพลังงานในแต่ละวัน
+                    โดยค่าพลังงานนี้ร่างกายจะใช้ในการขับเคลื่อนระบบเเละควบคุมอวัยวะต่างๆ ในร่างกายค่ะ
+                    เรามาหาค่าพลังงานที่ใช้ในส่วนนี้กันก่อนค่ะ โดยการกรอกข้อมูลในเครื่องคำนวณด้านล่างนี้ค่ะ
+                </p>
+
+                <div>
+                    <div class="gen">
+                        <div class="in">
+                            <input type="radio" id="gender-female" name="gender" value="female">
+                            <label for="gender-female">WOMEN</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="gender-male" name="gender" value="male">
+                            <label for="gender-male">MEN</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dox">
+                    <div class="indox">
+                        <form action="" class="inputint">
+                            <label for="height">HEIGHT</label> <br>
+                            <input type="number" id="height">
+                        </form>
+                    </div>
+                    <div class="indox">
+                        <form action="" class="inputint">
+                            <label for="weight">WEIGHT</label> <br>
+                            <input type="number" id="weight">
+                        </form>
+                    </div>
+                    <div class="indox">
+                        <form action="" class="inputint">
+                            <label for="age">AGE</label> <br>
+                            <input type="number" id="age">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="dox">
+                    <div class="indox">
+                        <form action="" class="inputint">
+                            <label for="bmrResult">BMR (kcal)</label> <br>
+                            <input type="number" id="bmrResult" readonly>
+                        </form>
+                    </div>
+                    <button id="bmr" type="button">คำนวณ BMR</button>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="section2">
+                <div class="box-text">
+                    <h3>เครื่องคำนวณการ</h3>
+                    <h3>เผาผลาญพลังงาน</h3>
+                    <h3>(TDEE)</h3>
+                    <p>ลังจากเราได้ค่าการเผาผลาญ (ฺBMR) ที่เป็นพลังงานเพียวๆ เเบบไม่ได้ทำกิจกรรมอะไรเเล้ว
+                        เราก็จะมาเพิ่มในส่วนของกิจกรรมอื่นๆ ตามลักษณะการใช้ชีวิต เช่น การทำกิจกรรมนอกบ้าน
+                        หรือการไปออกกำลังกาย เพื่อหาค่าการเผาผลาญส่วนที่เพิ่มเติมลงไป (TDEE)
+                        <br>TDEE คือ Total Daily Energy Expenditure หรือ ค่าของพลังงานที่ใช้กิจกรรมอื่นในแต่ละวัน
+                        โดยเลือกจากกิจกรรมตาม list ด้านล่างค่ะ ค่าที่ออกมาจะได้ค่าของการเผาผลาญพลังงานที่เป็นค่าเพียวๆ
+                        เเละค่าจากการทำกิจกรรมร่วมกันค่ะ
+                    </p>
+                </div>
+                <div class="box-text2">
+                    <h5>กิจกรรมที่ทำ</h5>
+                    <div class="kidkam">
+                        <input type="radio" id="eiei-kidkam1" name="kidkam" value="1.2">
+                        <label for="eiei-kidkam1">ทำงานเเบบนั่งอยู่กับที่ (x 1.2)</label>
+                    </div>
+                    <div class="kidkam">
+                        <input type="radio" id="eiei-kidkam2" name="kidkam" value="1.375">
+                        <label for="eiei-kidkam2">ออกกำลังกายเบาๆ 1-3 วัน/สัปดาห์ (x 1.375)</label>
+                    </div>
+                    <div class="kidkam">
+                        <input type="radio" id="eiei-kidkam3" name="kidkam" value="1.55">
+                        <label for="eiei-kidkam3">ออกกำลังกายปานกลาง 3-5 วัน/สัปดาห์ (x 1.55)</label>
+                    </div>
+                    <div class="kidkam">
+                        <input type="radio" id="eiei-kidkam4" name="kidkam" value="1.725">
+                        <label for="eiei-kidkam4">ออกกำลังกายหนัก 6-7 วัน/สัปดาห์ (x 1.725)</label>
+                    </div>
+                    <div class="kidkam">
+                        <input type="radio" id="eiei-kidkam5" name="kidkam" value="1.9">
+                        <label for="eiei-kidkam5">ออกกำลังกายหนักมาก (นักกีฬา) (x 1.9)</label>
+                    </div>
+
+                    <div>
+                        <div class="tdee">
+                            <form action="" class="form">
+                                <label for="tdeeResult">TDEE (kcal)</label> <br>
+                                <input type="number" id="tdeeResult" readonly>
+                            </form>
+                            <button id="bta" type="button">คำนวณ TDEE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="imgei">
+                <img src="img/555 (7).svg" alt="">
+                <img src="img/555 (8).svg" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

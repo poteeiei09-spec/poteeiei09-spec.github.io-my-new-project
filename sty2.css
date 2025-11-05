@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+
+
+body {
+    background-color: #191818;
+     font-family: Impact,  sans-serif;
+     color: white;
+    
+     
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    
+}
+
+.hear {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 64px;
+    align-items: center;
+    
+    
+
+}
+
+.hear a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+    transition: transform 1s ease-out ;
+}
+
+.hear a:hover {
+    border-bottom: 1px solid whitesmoke;
+    transform: scale(1.1);
+    
+}
+
+
+
+.miji {
+    display: flex;
+
+}
+
+.miji img {
+    margin-right: 20px;
+}
+
+.line {
+    background-color: #ff0000;
+    width: 50px;
+    height: 3px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.link {
+    display: flex;
+}
+
+
+.section1 {
+    display: flex;
+}
+
+
+.img {
+    padding-right: 100px;
+    
+    
+} 
+
+.img1 {
+    position: absolute;
+    max-width: 50%;
+    z-index: 3;
+    left: -170px;
+    transform: rotate(4deg);
+    
+    
+}
+
+.img2 {
+    position: relative;
+    max-width: 100%;
+    z-index: 2;
+    top: 250px;
+    transform: rotate(1deg);
+    padding: 0;
+}
+
+.img3 {
+    position: absolute;
+    max-width: 50%;
+    z-index: 3;
+    left: 150px;
+    top: 620px;
+    transform: rotate(1deg);
+}
+
+.box h2 {
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 0;
+    font-size: 70px;
+}
+
+.box p {
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 10px;
+}
+
+.gen {
+    display: flex;
+    padding: 40px  ;
+    background-color: #fff;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.gen div input{
+    display: none;
+}
+
+.gen div label {
+    background-color: #191818;
+    padding: 30px 150px;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}
+
+.gen div {
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.gen div:hover {
+   transform: scale(1.05); /* ขยายเล็กน้อย (1.1 อาจจะใหญ่ไป) */
+   background-color: #f0f0f0; /* เปลี่ยนเป็นสีเทาอ่อนๆ ตอนชี้ */
+}
+
+
+
+.gen div input:checked + label {
+    border:3px solid #ff0000;
+}
+
+
+.dox {
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.indox {
+    color: #000;
+    text-align: center;
+    font-size: 2px;
+    
+   
+
+}
+
+.indox label {
+    font-family: Impact,  sans-serif;
+}
+
+.indox form {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Impact,  sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.indox input {
+    background-color: rgb(2, 2, 2);
+    padding: 15px  1px;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+.box-text {
+    max-width: 900px;
+    margin-left: 64px;
+}
+
+.box-text h3 {
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 0;
+    font-size: 70px;
+}
+
+.box-text p {
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 10px;
+}
+
+.box-text2 {
+    margin-right: 100px;
+}
+
+.box-text2 h5 {
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 0;
+    font-size: 32px;
+}
+
+.kidkam  {
+    display: flex;
+    padding: 25px 10px ;
+    background-color: #ffffff;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 6px;
+    transition: background-color 0.5s ease-out, transform 1s ease-out;
+    
+}
+
+.kidkam input{
+    display: none;
+    
+}
+
+.kidkam label {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-size: 23.5px;
+    padding-left: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    
+}
+.kidkam:hover {
+   transform: scale(1.05); /* ขยายเล็กน้อย (1.1 อาจจะใหญ่ไป) */
+   background-color: #f0f0f0; /* เปลี่ยนเป็นสีเทาอ่อนๆ ตอนชี้ */
+}
+
+/* และใช้โค้ดจากข้อ 2 (อันบน) */
+.kidkam:has(input:checked) {
+    background-color: rgb(255, 255, 255); /* ตอนติ๊ก ค่อยเป็นสีเขียว */
+    color: #ffffff;
+    border:3px solid #ff0000;
+}
+
+.tdee {
+    display: flex;
+    padding: 30px 10px ;
+    background-color: #ffffff;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 6px;
+    transition: background-color 0.5s ease-out, transform 1s ease-out;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tdee label {
+    font-size: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.tdee  input {
+    background-color: rgb(2, 2, 2);
+    padding: 10px 2px;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+
+#bta{
+    color: #ffffff;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 70px;
+    transition: all 0.2s;
+    margin-top: 13px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 15px;
+}
+
+#bta:hover{
+    transform: scale(1.1);
+}
+#bmr{
+    color: #ffffff;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 25px;
+    padding: 30px 150px;
+    transition: all 0.2s;
+    margin-top: 1px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 25px;
+}
+
+#bmr:hover{
+    transform: scale(1.1);
+}
+
+.imgei {
+    display: flex;
+    position: absolute;
+    top: 1670px;
+    z-index: 1;
+
+}
+
+.imgei img {
+    display: flex;
+    width: 50%;
+    margin-right: 20px;
+}   
+
+
+
+
+
+
+
+

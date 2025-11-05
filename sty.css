@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("/img/EIEI.svg");
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.hear {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 64px;
+    align-items: center;
+    
+    
+
+}
+
+.hear a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 100px;
+    
+}
+
+
+
+
+.miji {
+    display: flex;
+
+}
+
+.miji img {
+    margin-right: 20px;
+}
+
+.line {
+    background-color: #fff;
+    width: 50px;
+    height: 3px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.link {
+    display: flex;
+}
+
+
+
+
+
+.textbig {
+    text-align: center;
+    font-size: 200px;
+
+}
+
+.textbig p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #fff;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 6px 6px 20px #5f5f5f,
+        -6px -6px 20px #5f5f5f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.indox {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.indox form {
+    background-color: rgb(255, 255, 255);
+}
+
+.indox input {
+    background-color: rgb(2, 2, 2);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#bta{
+    color: #ffffff;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 70px;
+    transition: all 0.2s;
+    margin-top: 13px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    
+}
+
+#bta:hover{
+    transform: scale(1.1);
+}
+
+
+
+#bta.act {
+    border:3px solid #ff0000;
+}
+
+
+
+
+
+
+.mom {
+    display: none;
+}
+
+.mom.active {
+    display: block;
+    
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    align-items: center;
+    justify-items: center;
+    border-radius: 7px;
+}
+
+
+
+
+.div1 {
+    color: #000;
+    border-right: 2px solid black;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid rgb(28, 28, 28);
+    text-align: center;
+    
+    
+    
+
+}
+
+.div1 p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+
+}
+
+.div2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid rgb(28, 28, 28);
+    border-bottom: 2px solid rgb(28, 28, 28);
+    text-align: center;
+}
+
+.div2 p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.div3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.div3 p {
+    padding-top: 18px;
+    font-size: 105x;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    font-weight: 300;
+    
+}
+
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    color: #000;
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.div4 p {
+    padding-top: 1px;
+    font-size: 18px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    font-weight: 100;
+
+}
+
+.div4 h4 {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
